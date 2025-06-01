@@ -81,7 +81,7 @@ else:
     print("Target AUC of >= 0.9 met!")
 
 # Save the trained model
-model_filename = 'xgboost_purchase_model.joblib'
+model_filename = 'final_model.joblib' # Updated to final name
 print(f"\nSaving trained model to {model_filename}...")
 joblib.dump(final_model, model_filename)
 print(f"Model saved successfully.")
